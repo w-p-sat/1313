@@ -30,7 +30,7 @@ body{
     position: relative; /* Встановлюємо відносне позиціонування для батьківського контейнера */
     height: 100vh;
     width: 100%;
-    background-color: #00000094;
+    background-color: #000000c2;
 }
 .graph-container {
     position: absolute; /* Позиціонуємо абсолютно всередині body_box */
@@ -135,4 +135,5 @@ box-shadow: inset 0px 0px 24px 0px rgba(0, 255, 13, 1);
 }
 .secret-stats{
     margin-top: 20px;
+
 }
