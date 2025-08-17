@@ -134,6 +134,10 @@ body{
 box-shadow: inset 0px 0px 24px 0px rgba(0, 255, 13, 1);
 }
 .secret-stats{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #0000008a;
     margin-top: 20px;
 
 }
+
