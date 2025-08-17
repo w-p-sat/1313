@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/nulstyle.css">
+    <link rel="stylesheet" href="/css/one_page.css">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <title>LuckLens</title>
+</head>
+<body>
+    <section class="body_box">
+        <section class="graph-container">
+            <svg id="dynamic-svg" viewBox="0 0 1000 400">
+                <g class="grid">
+                    <line id="x-axis" x1="0" y1="350" x2="1000" y2="350"/>
+                    <line x1="0" y1="50" x2="0" y2="350"/>
+                    <text x="10" y="60"></text>
+                    <text x="10" y="350"></text>
+                </g>
+                <path id="dynamic-line" class="line" d=""/>
+            </svg>
+        </section>
+        <div class="text-content">
+            <div class="statistic-text">
+                <h1>STATISTICAL ANALYZER</h1>
+                <p>Analyze your game now!</p>
+            </div>
+            <div class="select_analyze">
+                <button class="select_analyze_slots">
+                    <img src="/img/slots.png" alt="">
+                    <span class="button-text">Slots</span>
+                </button>
+                <button class="select_analyze_bet">
+                    <img src="/img/bet.png" alt="">
+                    <span class="button-text">Bet</span>
+                </button>
+            </div>
+            <div class="secret-stats">
+                <p>We track game performance through backend reports, which are usually <br>hidden from players, and turn them into clear statistics</p>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/js/graphik.js"></script>
+</html>
